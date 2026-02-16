@@ -1,4 +1,4 @@
-#!C:\Users\Neus\Documents\Proyectos_Odoo\venv\Scripts\python.exe
+#!C:\Users\ncube\Documents\Proyectos\Training\venv\Scripts\python.exe
 # :Copyright: © 2015 Günter Milde.
 # :License: Released under the terms of the `2-Clause BSD license`_, in short:
 #

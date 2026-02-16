@@ -1,4 +1,4 @@
-#!C:\Users\Neus\Documents\Proyectos_Odoo\venv\Scripts\python.exe
+#!C:\Users\ncube\Documents\Proyectos\Training\venv\Scripts\python.exe
 
 # $Id: rst2odt.py 9115 2022-07-28 17:06:24Z milde $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>
