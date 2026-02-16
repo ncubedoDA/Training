@@ -14,6 +14,8 @@
         'views/grades_evaluation_views.xml',
         'views/grades_grade_view.xml',
         'views/grades_manager_menus.xml',
+        'wizard/advanced_course_wizard_views.xml',
+        'data/ir_actions.xml',
         
     ],
     'license': 'AGPL-3',

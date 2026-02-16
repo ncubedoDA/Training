@@ -5,6 +5,7 @@
         <field name="arch" type="xml">
             <list string="Courses Titles" >
                 <field name="name"/>
+                <field name="type"/>
                 <field name="student_qty"/>
                 <field name="description"/>
                 <field name="is_active"/>
@@ -46,6 +47,7 @@
                             <field name="is_active"/>
                             <field name="last_evaluation_date" readonly="1"/>
                             <field name="course_shift"/>
+                            <field name="type" readonly="1"/>
                             <field name="create_uid" invisible="1"/>
                             
                         </group>

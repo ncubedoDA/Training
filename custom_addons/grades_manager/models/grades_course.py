@@ -26,6 +26,17 @@ class GradesCourse(models.Model):
     student_ids = fields.Many2many('res.partner', 'grades_course_students_rel', string='Students')
     state = fields.Selection([('register','Register'),('in_progress','In_progress'),('finished','Finished')], string='State', default='register')
     invalid_dates = fields.Boolean(string='Invalid Dates')
+    type = fields.Selection([('basic','Basic'),('advanced', 'Advanced')], string='Type', default='basic')
+
+    def action_advanced_course_wizard(self):
+        return {
+            "type": "ir.actions.act_window",
+            "name": "Create advanced course",
+            "res_model": "advanced.course.wizard",
+            "view_mode": "form",
+            "target": "new",
+
+        }
 
     def write(self,vals):
         if vals and 'evaluation_ids' in vals and not self.student_ids:
